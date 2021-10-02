@@ -85,6 +85,12 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    border-radius: 15px;
+    z-index: 119;
+    background: #f6f6f69e;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .header .logo {
     width: 172px;
