@@ -28,6 +28,11 @@ body {
     margin-right: auto;
 }
 /* small */
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+    }
+}
 @media (min-width:768px) {
     .container {
         width: 750px;
@@ -90,6 +95,7 @@ html {
     z-index: 119;
     background: #f6f6f69e;
     left: 50%;
+    top: 0;
     transform: translateX(-50%);
 }
 .header .logo {
